@@ -2,6 +2,13 @@
 Inicia el proyecto de Coursera: Guía de Hoteles
 
 
-# Intallación de librerias:
+#Pre-requisitos 📋 (Intalación de librerias)
 npm init
 npm install lite-server --save-dev
+<br>
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
+
+#Construido con 🛠️
+Angular - El framework front-end web usado
