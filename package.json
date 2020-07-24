@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-module-1",
+  "version": "1.0.0",
+  "description": "Modulo 1 Coursera, Stack MEAN",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Segaretsu/Coursera-full-Stack-module-1.git"
+  },
+  "author": "Jhon Agudelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Segaretsu/Coursera-full-Stack-module-1/issues"
+  },
+  "homepage": "https://github.com/Segaretsu/Coursera-full-Stack-module-1#readme"
+}
