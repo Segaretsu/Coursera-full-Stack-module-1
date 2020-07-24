@@ -1,4 +1,4 @@
-# Coursera-full-Stack-module-1
+# Coursera: Guía de Hoteles
 Inicia el proyecto de Coursera: Guía de Hoteles
 
 
