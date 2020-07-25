@@ -8,54 +8,111 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./css/main.css">
+
     <title>Hoteles</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">Hoteles</h1>
+      <div class="jumbotron">
+        <h1 class="display-4">Hoteles</h1>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <p><strong>Hospitalidad:</strong> Desde que llegas te puedes sentir como en familia, nuestros empleados son muy comprometidos y amables con cada uno de nuestros huéspedes.</p>
+            <h3>Hospitalidad</h3>
+            <p>Desde que llegas te puedes sentir como en familia, nuestros empleados son muy comprometidos y amables con cada uno de nuestros huéspedes.</p>
           </div>
           <div class="col-md-3">
-            <p><strong>Seguridad:</strong> Con nuestro sistema de monitoreo continuo en las entradas, salidas y exteriores de nuestro hotel, nos aseguramos que tu equipaje permanezca intacto durante tu estancia.</p>
+            <h3>Seguridad</h3>
+            <p>Con nuestro sistema de monitoreo continuo en las entradas, salidas y exteriores de nuestro hotel, nos aseguramos que tu equipaje permanezca intacto durante tu estancia.</p>
           </div>
           <div class="col-md-3">
-            <p><strong>Comodidad:</strong> Con nuestro Spa, sauna, comidas tipo buffet, piscinas y unas camas que te invitaran a quedarte un rato más en la mañana tu comodidad está garantizada.</p>
+            <h3>Comodidad</h3>
+            <p>Con nuestro Spa, sauna, comidas tipo buffet, piscinas y unas camas que te invitaran a quedarte un rato más en la mañana tu comodidad está garantizada.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="card" style="width: 18rem;">
+        <div class="d-flex flex-wrap flex-row-reverse">
+          <div class="card card-hotel d-flex flex-column justify-content-betweem" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Trivago</h5>
               <p class="card-text">Descubre las mejores experiencias en hoteles en los más de 1000 artículos de trivago Magazine, desde hoteles boutique en Barcelona hasta casas rurales con encanto en Andalucía.</p>
-              <a href="https://www.trivago.es/" target="_blank" class="btn btn-primary">Ir a sitio</a>
+              <div>
+                <a href="https://www.trivago.es/" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Hotel Boutique</h5>
               <p class="card-text">Simplificación de habitaciones, algunas con bañeras de hidromasaje, en un hotel de estilo informal que ofrecen una terraza y desayuno.</p>
-              <a href="https://boutique-laureles-medellin-co.book.direct/es-es?utm_source=gmb" target="_blank" class="btn btn-primary">Ir a sitio</a>
+              <div>
+                <a href="https://boutique-laureles-medellin-co.book.direct/es-es?utm_source=gmb" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Hotel Asturias</h5>
               <p class="card-text">Habitaciones luminosas en una propiedad tranquila, que ofrece desayuno tipo bufé y estacionamiento incluidos.</p>
-              <a href="https://www.asturiasmedellinhotel.com/es/" target="_blank" class="btn btn-primary">Ir a sitio</a>
+              <div>
+                <a href="https://www.asturiasmedellinhotel.com/es/" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Prueba</h5>
+              <p class="card-text">Estacionamiento incluidos.</p>
+              <div>
+                <a href="https://www.asturiasmedellinhotel.com/es/" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Ensayo</h5>
+              <p class="card-text">Habitaciones luminosas en una propiedad tranquila.</p>
+              <div>
+                <a href="https://www.asturiasmedellinhotel.com/es/" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Test</h5>
+              <p class="card-text">Desayuno tipo bufé y estacionamiento incluidos.</p>
+              <div>
+                <a href="https://www.asturiasmedellinhotel.com/es/" target="_blank" class="btn btn-primary btn-reserva">Ir a sitio</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p> -->
     </div>
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          <a href="https://currents.google.com/" target="_blank">Google Currents</a>
+        </div>
+        <div class="col-sm-4">
+          <address class="">
+            <h3>Oficina Central</h3>
+            <p>Colombia, Medellín Antioquia</p>
+            <p>+57 3110004789</p>
+            <p>contacto@guiaholetes.com</p>
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="https://www.facebook.com" target="_blank">Nosotros</a>
+          <a href="https://www.twitter.com" target="_blank">Precios</a>
+          <a href="https://www.instagram.com/" target="_blank">Terminos y condiciones</a>
+          <a href="https://currents.google.com/" target="_blank">Contacto</a>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>

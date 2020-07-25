@@ -13,5 +13,5 @@ Inicia el proyecto de Coursera: Guía de Hoteles
 
 # Construido con 🛠️
 <ul>
-  <li>Angular - El framework front-end web usado</li>
+  <li>Bootstrap - El framework front-end web usado para el diseño</li>
 </ul>
