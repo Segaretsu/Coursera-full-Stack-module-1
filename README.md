@@ -18,6 +18,7 @@ Inicia el proyecto de Coursera: Guía de Hoteles
   <li>npm i open-iconic --save</li>
 <ul>
 </ul>
+
 # Construido con 🛠️
 <ul>
   <li>Bootstrap - El framework front-end web usado para el diseño</li>
