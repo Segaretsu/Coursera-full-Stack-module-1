@@ -10,6 +10,10 @@ footer {
   margin-top: 20px;
 }
 
+.footer-address-icon {
+  padding-right: 10px;
+}
+
 .card-hotel {
   flex: 1 150px; /*1: cuanto se podra modificar, 150px: ancho de columna*/
   padding: 2px 5px 2px 5px;
