@@ -15,8 +15,7 @@ footer {
 }
 
 .card-hotel {
-  flex: 1 150px; /*1: cuanto se podra modificar, 150px: ancho de columna*/
-  padding: 2px 5px 2px 5px;
+  flex: 1 200px; /*1: cuanto se podra modificar, 150px: ancho de columna*/
   margin-top: 10px;
 }
 
@@ -25,4 +24,5 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
+  border-radius: 0;
 }
