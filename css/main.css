@@ -36,3 +36,7 @@ footer {
   background-repeat: no-repeat;
   color: black;
 }
+
+.tab-content {
+  margin-top: 10px;
+}
