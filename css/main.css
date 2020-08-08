@@ -19,6 +19,10 @@ footer {
   margin-top: 10px;
 }
 
+div.btn-reservas {
+  margin-bottom:30px;
+}
+
 .btn-reserva {
   width: 100%;
   position: absolute;
