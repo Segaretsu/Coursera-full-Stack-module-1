@@ -78,7 +78,7 @@
     </div>
   <div class="d-flex flex-wrap flex-row-reverse">
     <div class="card card-hotel d-flex flex-column justify-content-betweem ml-2" style="width: 18rem;">
-      <div class="card-body">
+      <div class="card-body" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">
         <h5 class="card-title">Trivago</h5>
         <h6 class="card-subtitle text-muted">Internacional</h6>
         <img src="./images/Trivago.jpg" alt="hotel img" class="card-img-top">
@@ -91,7 +91,7 @@
     </div>
     <div class="card card-hotel d-flex flex-column justify-content-between ml-2" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">Hotel Boutique</h5>
+        <h5 class="card-title" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Hotel Boutique</h5>
         <h6 class="card-subtitle text-muted">Medellín, Colombia</h6>
         <img src="./images/Boutique.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Simplificación de habitaciones, algunas con bañeras de hidromasaje, en un hotel de estilo informal que ofrecen una terraza y desayuno.</p>
@@ -103,7 +103,7 @@
     </div>
     <div class="card card-hotel d-flex flex-column justify-content-between ml-2" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">Hotel Asturias</h5>
+        <h5 class="card-title" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Hotel Asturias</h5>
         <h6 class="card-subtitle text-muted">Medellín, Colombia</h6>
         <img src="./images/Asturias.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Habitaciones luminosas en una propiedad tranquila, que ofrece desayuno tipo bufé y estacionamiento incluidos.</p>
@@ -115,7 +115,7 @@
     </div>
     <div class="card card-hotel d-flex flex-column justify-content-between ml-2" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">Hotel Prueba</h5>
+        <h5 class="card-title" data-toggle="popover" title="Promociones" data-content="Consultá las promociones vigentes">Hotel Prueba</h5>
         <h6 class="card-subtitle text-muted">España</h6>
         <img src="./images/test2.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Estacionamiento incluidos.</p>
@@ -127,7 +127,7 @@
     </div>
     <div class="card card-hotel d-flex flex-column justify-content-between ml-2" style="width: 18rem;">
       <div class="card-body">
-        <h5 class="card-title">Hotel Ensayo</h5>
+        <h5 class="card-title" data-toggle="popover" data-placement="top" title="Las primeras reservas cuentan con clases de tango gratis!">Hotel Ensayo</h5>
         <h6 class="card-subtitle text-muted">España</h6>
         <img src="./images/test1.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Habitaciones luminosas en una propiedad tranquila.</p>
@@ -249,8 +249,16 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/popper.js/dist/und/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- ACTIVAR tooltip-->
+  <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
 </body>
 
 </html>
