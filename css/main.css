@@ -40,7 +40,10 @@ div.btn-reservas {
   background-repeat: no-repeat;
   color: black;
 }
-
 .tab-content {
   margin-top: 10px;
+}
+/* Carrousel*/
+.carousel img {
+  height: 500px;
 }
