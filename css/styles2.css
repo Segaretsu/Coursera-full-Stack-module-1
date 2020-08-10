@@ -1,36 +1,28 @@
-$primaryColor: #abf5ff; //Variables con signo peso
-
 /*MIXIN*/
-@mixin margenes($top, $bottom){
-  margin-top: $top;
-  margin-bottom: $bottom;
-}
 /* FIN MIXIN*/
-
 .jumbotron {
-  background-color: $primaryColor;
+  background-color: #abf5ff;
   color: white;
-  @include margenes(50px, 0px);
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 footer {
   padding: 10px 10px 0 10px;
-  background-color: $primaryColor;
-  @include margenes(20px, 0px);
+  background-color: #abf5ff;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
-
 .footer-address-icon {
   padding-right: 10px;
 }
-
 .card-hotel {
-  flex: 1 200px; /*1: cuanto se podra modificar, 150px: ancho de columna*/
+  flex: 1 200px;
+  /*1: cuanto se podra modificar, 150px: ancho de columna*/
   margin-top: 10px;
 }
-
 div.btn-reservas {
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
-
 .btn-reserva {
   width: 100%;
   position: absolute;
@@ -38,11 +30,10 @@ div.btn-reservas {
   bottom: 0;
   border-radius: 0;
 }
-
 .banner {
   height: 300px;
   min-height: 500px;
-  background-image: url('../images/hotelBanner.jpeg');
+  background-image: url("../images/hotelBanner.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -20,8 +20,13 @@ Inicia el proyecto de Coursera: Guía de Hoteles
 </ul>
 <h4>Sass y node-sass</h4>
 <ul>
-  <li>npm i -g sass --save</li>
+  <li>npm i -g sass</li>
   <li>npm i node-sass --save-dev</li>
+</ul>
+<h4>Less</h4>
+<ul>
+  <li>npm i -g less</li>
+  <li>lessc rutaOrigen rutaFin</li>
 </ul>
 
 # Construido con 🛠️

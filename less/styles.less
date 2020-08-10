@@ -1,0 +1,56 @@
+@primaryColor: #abf5ff;
+@yellow: #e1e813;
+@red: #de4050;
+@green: #9fedad;
+
+/*MIXIN*/
+.margenes(@top, @bottom: 0px){
+  margin-top: @top;
+  margin-bottom: @bottom;
+}
+/* FIN MIXIN*/
+
+.jumbotron {
+  background-color: @primaryColor;
+  color: white;
+  .margenes(50px, 0px);
+}
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: @primaryColor;
+  .margenes(50px, 0px); }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.card-hotel {
+  flex: 1 200px;
+  /*1: cuanto se podra modificar, 150px: ancho de columna*/
+  margin-top: 10px; }
+
+div.btn-reservas {
+  margin-bottom: 30px; }
+
+.btn-reserva {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0; }
+
+.banner {
+  height: 300px;
+  min-height: 500px;
+  background-image: url("../images/hotelBanner.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black; }
+
+.tab-content {
+  margin-top: 10px; }
+
+/* Carrousel*/
+.carousel img {
+  height: 500px; }
