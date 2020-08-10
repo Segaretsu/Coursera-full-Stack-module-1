@@ -112,7 +112,7 @@
         <h6 class="card-subtitle text-muted">Internacional</h6>
         <img src="./images/Trivago.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Descubre las mejores experiencias en hoteles en los más de 1000 artículos de trivago Magazine, desde hoteles boutique en Barcelona hasta casas rurales con encanto en Andalucía.</p>
-        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        <button class="btn btn-outline-success contactoBtn" data-toggle="modal" data-target="#contacto">Contacto</button>
       </div>
       <div class="btn-reservas">
         <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reserva"><span class="oi oi-plus"></span>Reservar</button>
@@ -124,7 +124,7 @@
         <h6 class="card-subtitle text-muted">Medellín, Colombia</h6>
         <img src="./images/Boutique.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Simplificación de habitaciones, algunas con bañeras de hidromasaje, en un hotel de estilo informal que ofrecen una terraza y desayuno.</p>
-        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        <button class="btn btn-outline-success contactoBtn" data-toggle="modal" data-target="#contacto">Contacto</button>
       </div>
       <div class="btn-reservas">
         <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reserva"><span class="oi oi-plus"></span>Reservar</button>
@@ -136,7 +136,7 @@
         <h6 class="card-subtitle text-muted">Medellín, Colombia</h6>
         <img src="./images/Asturias.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Habitaciones luminosas en una propiedad tranquila, que ofrece desayuno tipo bufé y estacionamiento incluidos.</p>
-        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        <button class="btn btn-outline-success contactoBtn" data-toggle="modal" data-target="#contacto">Contacto</button>
       </div>
       <div class="btn-reservas">
         <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reserva"><span class="oi oi-plus"></span>Reservar</button>
@@ -148,7 +148,7 @@
         <h6 class="card-subtitle text-muted">España</h6>
         <img src="./images/test2.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Estacionamiento incluidos.</p>
-        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        <button class="btn btn-outline-success contactoBtn" data-toggle="modal" data-target="#contacto">Contacto</button>
       </div>
       <div class="btn-reservas">
         <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reserva"><span class="oi oi-plus"></span>Reservar</button>
@@ -160,7 +160,7 @@
         <h6 class="card-subtitle text-muted">España</h6>
         <img src="./images/test1.jpg" alt="hotel img" class="card-img-top">
         <p class="card-text">Habitaciones luminosas en una propiedad tranquila.</p>
-        <button class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+        <button class="btn btn-outline-success contactoBtn" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
       </div>
       <div class="btn-reservas">
         <button class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#reserva"><span class="oi oi-plus"></span>Reservar</button>
@@ -277,9 +277,9 @@
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/und/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <!-- ACTIVAR tooltip-->
   <script>
@@ -288,6 +288,23 @@
       $('[data-toggle="popover"]').popover();
       $('.carousel').carousel({
         interval: 2000
+      });
+      $('#contacto').on('show.bs.modal', function (e){
+        console.log('El modal contacto se esta mostrando');
+        console.log(e)
+        $('.contactoBtn').removeClass('btn-outline-success');
+        $('.contactoBtn').addClass('btn-primary');
+        $('.contactoBtn').prop('disabled', true);
+      });
+      $('#contacto').on('shown.bs.modal', function (e){
+        console.log('El modal contacto se mostró');
+      });
+      $('#contacto').on('hide.bs.modal', function (e){
+        console.log('El modal contacto se oculta');
+      });
+      $('#contacto').on('hidden.bs.modal', function (e){
+        console.log('El modal contacto se ocultó');
+        $('.contactoBtn').prop('disabled', false);
       });
     });
   </script>
