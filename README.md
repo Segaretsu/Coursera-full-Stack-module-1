@@ -15,8 +15,13 @@ Inicia el proyecto de Coursera: Guía de Hoteles
   <li>npm install popper.js --save</li>
 </ul>
 <h4>Iconos</h4>
-  <li>npm i open-iconic --save</li>
 <ul>
+  <li>npm i open-iconic --save</li>
+</ul>
+<h4>Sass y node-sass</h4>
+<ul>
+  <li>npm i -g sass --save</li>
+  <li>npm i node-sass --save-dev</li>
 </ul>
 
 # Construido con 🛠️
