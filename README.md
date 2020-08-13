@@ -29,6 +29,19 @@ Inicia el proyecto de Coursera: Guía de Hoteles
   <li>lessc rutaOrigen rutaFin</li>
 </ul>
 
+<h4>Salida a producción (onchange y rimraf)</h4>
+<ul>
+  <li>npm i --save-dev onchange rimraf</li>
+  <li>npm i --save concurrently</li>
+</ul>
+
+<h4>Otras herramientas</h4>
+<ul>
+  <li>npm i --save-dev copyfiles</li>
+  <li><strong>Comprimir imagenes:</strong> npm i imagemin-cli --unsafe-perm-true --allow-root</li>
+  <li><strong>Comprimir archivos:</strong> npm i --save-dev usemin-cli cssmin uglifyjs htmlmin </li>
+</ul>
+
 # Construido con 🛠️
 <ul>
   <li>Bootstrap - El framework front-end web usado para el diseño</li>
