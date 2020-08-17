@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- build:css dist/index.css -->
+  <!-- build:css css/index.css -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="./css/styles2.css">
@@ -273,37 +273,11 @@
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- build:js dist/index.js -->
+  <!-- build:js js/main.js -->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-  <script>
-    $(function() {
-      $('[data-toggle="tooltip"]').tooltip();
-      $('[data-toggle="popover"]').popover();
-      $('.carousel').carousel({
-        interval: 2000
-      });
-      $('#contacto').on('show.bs.modal', function (e){
-        console.log('El modal contacto se esta mostrando');
-        console.log(e)
-        $('.contactoBtn').removeClass('btn-outline-success');
-        $('.contactoBtn').addClass('btn-primary');
-        $('.contactoBtn').prop('disabled', true);
-      });
-      $('#contacto').on('shown.bs.modal', function (e){
-        console.log('El modal contacto se mostró');
-      });
-      $('#contacto').on('hide.bs.modal', function (e){
-        console.log('El modal contacto se oculta');
-      });
-      $('#contacto').on('hidden.bs.modal', function (e){
-        console.log('El modal contacto se ocultó');
-        $('.contactoBtn').prop('disabled', false);
-      });
-    });
-  </script>
+  <script src="./js/index.js"></script>
   <!-- endbuild -->
 </body>
 

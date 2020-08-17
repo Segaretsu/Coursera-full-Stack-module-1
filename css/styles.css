@@ -4,31 +4,37 @@
   background-color: #abf5ff;
   color: white;
   margin-top: 50px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 footer {
   padding: 10px 10px 0 10px;
   background-color: #abf5ff;
   margin-top: 20px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .footer-address-icon {
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 .card-hotel {
   flex: 1 200px;
   /*1: cuanto se podra modificar, 150px: ancho de columna*/
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 div.btn-reservas {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .btn-reserva {
   width: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .banner {
   height: 300px;
@@ -37,11 +43,16 @@ div.btn-reservas {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: black; }
+  color: black;
+}
 
 .tab-content {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 /* Carrousel*/
 .carousel img {
-  height: 500px; }
+  height: 500px;
+}
+
+/*# sourceMappingURL=styles.css.map */
