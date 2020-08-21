@@ -66,6 +66,21 @@ Inicia el proyecto de Coursera: Guía de Hoteles
   <li>npm install --save-dev babelify @babel/core</li>
 </ul>
 
+<h4>Gulp (Herramientas)</h4>
+<ul>
+  <li>npm i -g gulp-cli</li>
+  <li>npm i --save-dev gulp</li>
+  <li>Plugins</li>
+  <ul>
+    <li>npm i --save-dev gulp-sass</li>
+    <li>npm i --save-dev browser-sync</li>
+  </ul>
+  <li>Distribución</li>
+  <ul>
+    <li>npm i --save-dev del gulp-imagemin</li>
+    <li>npm i --save-dev gulp-uglify gulp-usemin gulp-rev gulp-clean-css gulp-flatmap gulp-htmlmin</li>
+  </ul>
+</ul>
 # Construido con 🛠️
 <ul>
   <li>Bootstrap - El framework front-end web usado para el diseño</li>
